@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Explore Hunza Valley</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Hunza Explorer</a>
+      <a href="/feedback" class="btn btn-light">Give Feedback</a>
+    </div>
+  </nav>
+
+  <div class="container py-5">
+    <h1 class="text-center mb-4">Discover the Beauty of Hunza Valley</h1>
+
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="{{ url_for('static', filename='hv1.jpg') }}" class="card-img-top" alt="Hunza Valley">
+          <div class="card-body">
+            <h5 class="card-title">Hunza Valley</h5>
+            <p class="card-text">Breathtaking landscapes and snow-capped mountains.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="{{ url_for('static', filename='hv2.jpg') }}" class="card-img-top" alt="Attabad Lake">
+          <div class="card-body">
+            <h5 class="card-title">Attabad Lake</h5>
+            <p class="card-text">Crystal blue water lake formed by a landslide in 2010.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="{{ url_for('static', filename='hv3.jpg') }}" class="card-img-top" alt="Baltit Fort">
+          <div class="card-body">
+            <h5 class="card-title">Baltit Fort</h5>
+            <p class="card-text">A 700-year-old fort offering panoramic views of the valley.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card shadow-sm">
+          <img src="{{ url_for('static', filename='hv4.jpg') }}" class="card-img-top" alt="Passu Cones">
+          <div class="card-body">
+            <h5 class="card-title">Passu Cones</h5>
+            <p class="card-text">Iconic mountain peaks known for their unique cone shapes.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card shadow-sm">
+          <img src="{{ url_for('static', filename='hv5.jpg') }}" class="card-img-top" alt="Hopper Glacier">
+          <div class="card-body">
+            <h5 class="card-title">Hopper Glacier</h5>
+            <p class="card-text">A mesmerizing glacier located in Nagar Valley, near Hunza.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-primary text-light text-center py-3 mt-5">
+    <p class="mb-0">© 2025 Hunza Explorer | Designed by Jawad</p>
+  </footer>
+
+</body>
+</html>
